@@ -1,3 +1,4 @@
+# Needs to be named Dockerfile
 # Stage 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
