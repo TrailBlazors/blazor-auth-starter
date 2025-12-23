@@ -4,7 +4,7 @@
 
 Build secure web applications with built-in user registration, login, and role-based access control. No configuration required - just deploy and start building authenticated features.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/TEMPLATE_ID)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/6fzPQH?referralCode=Ce0gB7&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## ✨ Features
 
