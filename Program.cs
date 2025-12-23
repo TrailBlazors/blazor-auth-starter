@@ -26,8 +26,9 @@ builder.Services.AddAuthentication(options =>
 // Configure database connection with Railway support
 string connectionString;
 
-// First, check for Railway's DATABASE_URL environment variable
-var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL_POSTGRESQL");
+// Check for Railway's database URL (DATABASE_PUBLIC_URL or DATABASE_URL)
+var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_PUBLIC_URL") 
+                  ?? Environment.GetEnvironmentVariable("DATABASE_URL");
 
 if (!string.IsNullOrEmpty(databaseUrl))
 {
